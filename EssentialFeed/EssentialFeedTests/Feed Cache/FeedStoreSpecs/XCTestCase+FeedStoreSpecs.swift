@@ -116,7 +116,6 @@ extension FeedStoreSpecs where Self: XCTestCase {
 }
 
 
-
 extension FeedStoreSpecs where Self: XCTestCase {
     @discardableResult
     func insert(_ cache: (feed: [LocalFeedImage], timestamp: Date), to sut: FeedStore) -> Error? {
