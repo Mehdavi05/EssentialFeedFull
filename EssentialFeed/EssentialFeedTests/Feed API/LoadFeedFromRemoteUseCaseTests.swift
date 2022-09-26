@@ -73,7 +73,6 @@ final class LoadFeedFromRemoteUseCaseTests: XCTestCase {
             let emptyListJSON = makeItemsJSON([])
             client.complete(withStatusCode: 200, data: emptyListJSON)
         }
-        
     }
     
     func test_load_deliversItemsOn200HTTPResponseWithJSONItems() {
