@@ -6,7 +6,6 @@
 //
 
 import CoreData
-import EssentialFeed
 
 public final class CoreDataFeedStore: FeedStore {
     private let container: NSPersistentContainer
