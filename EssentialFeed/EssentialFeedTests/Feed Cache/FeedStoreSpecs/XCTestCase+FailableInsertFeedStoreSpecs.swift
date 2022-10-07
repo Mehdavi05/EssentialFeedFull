@@ -6,9 +6,7 @@
 //
 
 import XCTest
-
 import XCTest
-
 import EssentialFeed
 
 extension FailableInsertFeedStoreSpecs where Self: XCTestCase {
