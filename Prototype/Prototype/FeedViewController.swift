@@ -35,7 +35,6 @@ class FeedViewController: UITableViewController {
     }
     
     // MARK: - Table view data source
-    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return feed.count
     }
@@ -47,6 +46,7 @@ class FeedViewController: UITableViewController {
         return cell
     }
 }
+
 
 extension FeedImageCell {
     func configure(with model: FeedImageViewModel) {
